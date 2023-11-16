@@ -1,0 +1,32 @@
+{
+	"name": "month-calendar",
+	"version": "1.0.0",
+	"description": "",
+	"main": "main.js",
+	"scripts": {
+		"start": "electron main.js",
+		"package": "electron-builder"
+	},
+	"keywords": [],
+	"author": "Praba Ponnambalam",
+	"license": "ISC",
+	"devDependencies": {
+		"electron": "^27.1.0",
+		"electron-builder": "^24.6.4"
+	},
+	"build": {
+		"appId": "com.codechillilk.month",
+		"productName": "Month",
+		"directories": {
+			"output": "dist"
+		},
+		"mac": {
+			"target": "mas",
+			"icon": "assets/icon.icns"
+		},
+		"files": [
+			"main.js",
+			"assets/icon.icns"
+		]
+	}
+}

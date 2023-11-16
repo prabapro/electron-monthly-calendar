@@ -1,0 +1,13 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.codechillilk.month
+productName: Month
+mac:
+  target: mas
+  icon: assets/icon.icns
+files:
+  - filter:
+      - main.js
+      - assets/icon.icns
+electronVersion: 27.1.0
